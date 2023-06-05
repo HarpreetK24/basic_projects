@@ -1,0 +1,119 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: rgb(158, 127, 127);
+  float: right;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  justify-content: space-between;
+}
+
+.active {
+  color: #69e4ff;
+    box-shadow: inset 0 5px #000000;
+}
+
+.topnav .icon {
+  display: none;
+}
+.topnav a:hover{
+    color: #293680;
+    box-shadow: inset 0 5px #000000;
+  }
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 17px;    
+    border: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+ s .dropdown:hover .dropbtn {
+    color: #69e4ff;
+      box-shadow: inset 0 5px #000000;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  hr{
+    color: #000000;
+    position: relative;bottom: 20px;right: 490px;
+    width:500px;
+  }
+
+  #pa{
+    display: block;
+    color: #000000;
+    position: relative;bottom: 20px;left: 0px;
+    width:500px;
+    font-family: sans-serif;
+    font-weight: 500;
+  }
+  table, th, td {
+    border: 1px solid rgb(44, 19, 120);
+    border-collapse: collapse;
+    border-width: 2px;
+    /* border-style: dotted; */
+    
+  
+  }
+  
+  th{
+      font-size: large;
+      font-family: sans-serif;
+  }
+  td{
+      text-align: center;
+  }
+  tr:nth-child(even) {
+    background-color: #fab8a2;
+    color: aliceblue;
+  }
+  th,td{
+      padding-top: 10px;
+    padding-bottom: 20px;
+  }
+  tr:hover {background-color: #b3b8b8;}
+  
